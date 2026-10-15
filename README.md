@@ -4,7 +4,7 @@ Developer at [De Marque](https://www.demarque.com), based in Québec City, Canad
 
 - 👀 I’m interested in system infrastructure and DevOps
 - 🛠️ I build and ship full-stack apps end to end, from the UI to the cloud deploy
-- 🏃‍♀️ Off the keyboard: running and roller derby
+- 🏃‍♀️ Off the keyboard: I run, cycle, swim and make music
 - 💬 I write code and talk in French and English
 
 #### ☁️ What I do
