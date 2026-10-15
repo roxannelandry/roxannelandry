@@ -1,6 +1,5 @@
 - 👋 Hi, I’m @roxannelandry
 - 👀 I’m interested in system infrastructure (Devops)
-- 🌱 I’m currently learning GCP.
 
 <!---
 roxannelandry/roxannelandry is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
