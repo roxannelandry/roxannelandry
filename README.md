@@ -28,23 +28,10 @@ Developer at [De Marque](https://www.demarque.com), based in Québec City, Canad
 
 From school days, I also wrote some OCaml, Prolog and CLIPS: an autocomplete dictionary, a Connect 4 AI, and an expert system.
 
-#### 📂 Public projects
-
-| Project | What it is |
-| --- | --- |
-| [QuickFly](https://github.com/roxannelandry/QuickFly) | Flight ticket reservation system (Java) |
-| [FlightRegisterBackEnd](https://github.com/roxannelandry/FlightRegisterBackEnd) | Flight registration back end (Java) |
-| [UMovie](https://github.com/roxannelandry/UMovie) | Movie web app (JavaScript) |
-| [ShootCan](https://github.com/roxannelandry/ShootCan) | Small game (C#) |
-| [CarouselLaboratory](https://github.com/roxannelandry/CarouselLaboratory) | Picture carousel with style (JavaScript) |
-| [CalculatorLaboratory](https://github.com/roxannelandry/CalculatorLaboratory) | Calculator in plain JavaScript |
-| [NotesLaboratory](https://github.com/roxannelandry/NotesLaboratory) | Notes app (JavaScript) |
-
-Most of what I work on lives in private repos, so the contribution graph tells only part of the story.
+My projects live in private repos, so the contribution graph tells only part of the story.
 
 #### 📊 GitHub stats
 
 <p>
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=roxannelandry&show_icons=true&hide_border=true&count_private=true" alt="Roxanne’s GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=roxannelandry&layout=compact&hide_border=true" alt="Most used languages" />
 </p>
