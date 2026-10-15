@@ -7,31 +7,17 @@ Developer at [De Marque](https://www.demarque.com), based in Québec City, Canad
 - 🏃‍♀️ Off the keyboard: running and roller derby
 - 💬 I write code and talk in French and English
 
-#### ☁️ DevOps and infrastructure
+#### ☁️ What I do
 
-- **Infrastructure as code:** Terraform and Helm, with separate preview, test, staging and production environments
-- **Kubernetes on GKE:** Traefik ingress, KEDA autoscaling, zero-downtime rollouts that drain pods before they stop
-- **Data services:** Redis, Cloud SQL, Meilisearch and Cloud Storage, including upgrades, snapshots and restores
-- **Edge and security:** Cloudflare, Cloud Armor, Checkov and Trivy scans in CI, keyless deploys with Workload Identity Federation
-- **CI/CD:** reusable GitHub Actions workflows that build, scan, deploy and tear down test clusters
-- **Observability:** Prometheus and Grafana monitoring, plus cost tracking
-- **Documentation:** runbooks and wikis people can rely on when something breaks
+- Infrastructure as code with Terraform and Helm
+- Kubernetes, CI/CD pipelines and cloud security
+- Monitoring, and the docs people need when something breaks
 
-#### 🔭 What I build on the side
+#### 🔭 On the side
 
-**🌬️ Nordet** is a live wind dashboard for kitesurf spots. It sends a push notification to your phone when conditions turn good, or are forecast to.
-- Node.js and Express. It pulls open data from weather stations, buoys and forecast models, then scores each spot.
-- It runs on Google Cloud Run, with Firestore, Cloud Scheduler and Web Push.
-- GitHub Actions deploys every push to `main`, authenticated with Workload Identity Federation.
-- 1,000+ tests, Playwright browser tests included, plus full docs on the architecture, data sources and operations.
-
-**🛒 A website for a local business** is a bilingual e-commerce prototype with a catalogue, search, reservations, accounts and SEO.
-- Next.js 16, React 19, TypeScript, Tailwind CSS 4, PostgreSQL with Drizzle ORM.
-- It's containerized with Docker and deployed to Cloud Run by GitHub Actions, with Vitest and Playwright tests on every PR.
-
-**🏃‍♀️ Running tools**
-- **CalibrateMyRun** is a Python CLI that fixes the distance and time of treadmill runs in TCX files, keeping the pace profile, laps and speeds consistent.
-- **PaceBeats** builds Spotify playlists that match your running pace (BPM).
+- **🌬️ Nordet**: live wind conditions and push alerts for kitesurf spots
+- **🏃‍♀️ Running tools**: treadmill run calibration, and Spotify playlists that match your pace
+- **🛒 Websites** for local businesses
 
 #### 🧰 Languages and tools
 
@@ -60,8 +46,6 @@ Developer at [De Marque](https://www.demarque.com), based in Québec City, Canad
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white)
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?logo=playwright&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
-
-From school days, I also wrote some OCaml, Prolog and CLIPS: an autocomplete dictionary, a Connect 4 AI, and an expert system.
 
 My projects live in private repos, so the contribution graph tells only part of the story.
 
