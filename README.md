@@ -48,9 +48,3 @@ Developer at [De Marque](https://www.demarque.com), based in Québec City, Canad
 ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
 
 My projects live in private repos, so the contribution graph tells only part of the story.
-
-#### 📊 GitHub stats
-
-<p>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=roxannelandry&show_icons=true&hide_border=true&count_private=true" alt="Roxanne’s GitHub stats" />
-</p>
