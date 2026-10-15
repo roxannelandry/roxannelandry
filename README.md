@@ -3,27 +3,48 @@
 Developer at [De Marque](https://www.demarque.com), based in Québec City, Canada.
 
 - 👀 I’m interested in system infrastructure and DevOps
-- 🛠️ Side projects keep me busy: websites, small tools for running, and weather data for kitesurfing
+- 🛠️ I build and ship full-stack apps end to end, from the UI to the cloud deploy
 - 🏃‍♀️ Off the keyboard: running and roller derby
 - 💬 I write code and talk in French and English
 
-#### 🔭 What I’m building on the side
+#### 🔭 What I build on the side
 
-- **A wind and weather dashboard for kitesurf spots**, pulling open data from buoys and weather stations
-- **Running tools:** pace calibration, and Spotify playlists matched to your running cadence (BPM)
-- **Websites** for local organizations, built with Next.js and Tailwind
+**🌬️ Nordet** is a live wind dashboard for kitesurf spots. It sends a push notification to your phone when conditions turn good, or are forecast to.
+- Node.js and Express. It pulls open data from weather stations, buoys and forecast models, then scores each spot.
+- It runs on Google Cloud Run, with Firestore, Cloud Scheduler and Web Push.
+- GitHub Actions deploys every push to `main`, authenticated with Workload Identity Federation.
+- 1,000+ tests, Playwright browser tests included, plus full docs on the architecture, data sources and operations.
+
+**🛒 A website for a local business** is a bilingual e-commerce prototype with a catalogue, search, reservations, accounts and SEO.
+- Next.js 16, React 19, TypeScript, Tailwind CSS 4, PostgreSQL with Drizzle ORM.
+- It's containerized with Docker and deployed to Cloud Run by GitHub Actions, with Vitest and Playwright tests on every PR.
+
+**🏃‍♀️ Running tools**
+- **CalibrateMyRun** is a Python CLI that fixes the distance and time of treadmill runs in TCX files, keeping the pace profile, laps and speeds consistent.
+- **PaceBeats** builds Spotify playlists that match your running pace (BPM).
+
+#### ☁️ DevOps and infrastructure
+
+What I reach for: Docker, GitHub Actions CI/CD, Google Cloud (Cloud Run, Firestore, Artifact Registry, Cloud Scheduler), keyless deploys with Workload Identity, and test suites that run green on every push.
 
 #### 🧰 Languages and tools
 
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-5FA04E?logo=nodedotjs&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=white)
 ![C](https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=black)
 ![C#](https://img.shields.io/badge/C%23-512BD4?logo=dotnet&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?logo=googlecloud&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?logo=playwright&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
 
 From school days, I also wrote some OCaml, Prolog and CLIPS: an autocomplete dictionary, a Connect 4 AI, and an expert system.
